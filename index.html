@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+  <div class="nav flex  justify-left justify-between items-center px-3 h-20 ">
+    <div class="col1nav  flex justify-center items-center">
+    <div class="menu flex">
+        <a href="#">
+        <span class="material-symbols-outlined menu rounded-full w-s bg-gray-200 bg-transparent hover:bg-gray-200 disabled:opacity-50  ">menu</span></a>
+    </div>
+    <div class="logo flex justify-left items-center "><a href=""><img src="./youtube_logo_v2.svg" class="logoyou w-2/2 h-10" alt="img"></a>
+    </div>
+    </div>
+    <div class="col2nav flex justify-center items-center bg-gray-200">
+    <div class="search  flex justify-left items-center bg-green-200 relative left-10 w-full border-1 border-gray-200 gap-2">
+        <input type="text" class="searchinp flex justify-center items-center  text-gray  pl-50 h-10 rounded-xl" placeholder="search">
+        <span class="material-symbols-outlined search-icon p-2 relative right-10 text-gray bg-gray-200  h-9 rounded-r-xl ">
+        search
+        </span>
+    </div>
+    <div class="mike flex bg-gray-200 gap-3 w-8 h-9 rounded-full "><a href=""><span class="material-symbols-outlined">
+        mic
+        </span></a>
+    </div>
+    </div>
+    <div class="col3nav flex justify-center items-center gap-2">
+    <div class="create bg-gray-200 w-2/3 h-10 rounded-2xl pl-4"><a href=""><span class="material-symbols-outlined relative top-1 ">
+        add
+        </span>Create</a>
+    </div>
+     <div class="notifictn  rounded-full w-6  "><a href=""><span class="material-symbols-outlined pl-1">
+        notifications
+        </span></a>
+    </div>
+    <div class="login "><img src="https://yt3.ggpht.com/fY7SO4Og54eJ-q8j2oEj_e0_wf6LDgRuuvjnWkzHwfoL7NGqJquYPMnY1oIbXF1Gu7n-FQ_q=s88-c-k-c0x00ffffff-no-rj" class="imglog rounded-full w-6" alt="">
+    </div>
+    </div>
+    
+    </div>  
+  <div class="main grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-3 w-full gap-3">
+    <div class="sidebar  bg-green-200 w-3/4 rounded-xl h-screen overflow-y-auto">
+        <div class="home flex gap-4 text-sm m-3 bg-gray-200 rounded-full pl-2">
+            <div class="icon"><a href="">
+                <span class="material-symbols-outlined">home</span>
+            </div>
+            <div class="hm">
+                Home</a>
+            </div>
+        </div>
+
+        <div class="shorts flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="">
+                <span class="material-symbols-outlined">animated_images</span>
+            </div>
+            <div class="shrts">
+                Shorts</a>
+            </div>
+        </div>
+
+
+         <div class="subscription flex gap-4 text-sm m-3 bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">animated_images</span>
+            </div>
+            <div class="subscptn">
+                Subscription</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="you flex gap-2 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2 ">
+            <div class="you1">You<a href="#">
+            </div>
+            <div class="greatersymbol">
+                <span class="material-symbols-outlined">chevron_right</span></a>
+            </div>
+        </div>
+
+         <div class="history flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">history</span>
+            </div>
+            <div class="history1">
+                History</a>
+            </div>
+        </div>
+
+         <div class="playlist flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">playlist_play</span>
+            </div>
+            <div class="plyst">
+                Playlists</a>
+            </div>
+        </div>
+
+        <div class="yourvideo flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">smart_display</span>
+            </div>
+            <div class="urvideo">
+                Your Videos</a>
+            </div>
+        </div>
+
+         <div class="watchlater flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">schedule</span>
+            </div>
+            <div class="later">
+                Watch Later</a>
+            </div>
+        </div>
+
+        <div class="likedvideos flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">thumb_up</span>
+            </div>
+            <div class="liked">
+                Liked Videos</a>
+            </div>
+        </div>
+        <hr>
+
+         <div class="explore flex gap-4 m-3 bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            
+            <div class="explre font-bold"> Explore</div>
+        </div>
+
+
+       <div class="trending flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">local_fire_department</span>
+            </div>
+            <div class="trnd">
+                Trending</a>
+            </div>
+        </div> 
+
+         <div class="shoppping flex gap-4 text-sm m-3 bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">shopping_bag</span>
+            </div>
+            <div class="shop">
+            Shopping</a>
+            </div>
+        </div> 
+
+        <div class="music flex gap-4 text-sm m-3 bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">music_note</span>
+            </div>
+            <div class="song">
+            Music</a>
+            </div>
+        </div> 
+
+        <div class="movies flex gap-4 text-sm m-3 bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">movie</span>
+            </div>
+            <div class="movie">
+            Movies</a>
+            </div>
+        </div> 
+
+        <div class="live flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">bigtop_updates</span>
+            </div>
+            <div class="live1">Live</a>
+            </div>
+        </div> 
+
+         <div class="game flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">stadia_controller</span>
+            </div>
+            <div class="game">Gaming
+           </a>
+            </div>
+        </div> 
+
+         <div class="news flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">newspaper</span>
+            </div>
+            <div class="news1">News </a>
+            </div>
+        </div> 
+
+         <div class="sports flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">trophy</span>
+            </div>
+            <div class="sports1">Sports </a>
+            </div>
+        </div> 
+
+         <div class="courses flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">school</span>
+            </div>
+            <div class="course">Courses </a>
+            </div>
+        </div> 
+        
+          <div class="fashion flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">styler</span>
+            </div>
+            <div class="fashnbeauty">Fashion and Beauty </a>
+            </div>
+        </div> 
+        
+         <div class="podcast flex gap-4 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <span class="material-symbols-outlined">podcasts</span>
+            </div>
+            <div class="podcasts">Podcasts </a>
+            </div>
+        </div> 
+        <hr>
+
+         <div class="moreyoutube flex gap-4 m-3 bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            
+            <div class="morfrmyoutube font-bold"> More from YouTube</div>
+        </div>
+        
+        <div class="premium1 flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png " class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="premium">YouTube Premium </a>
+            </div>
+        </div> 
+
+         <div class="studio flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=48&id=RffCjm5IOnEC&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="youtubestudio">YouTube Studio </a>
+            </div>
+        </div> 
+
+        <div class="music flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=48&id=V1cbDThDpbRc&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="youtubemusic">YouTube Music</a>
+            </div>
+        </div>
+        
+
+         <div class="kids flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=48&id=ot8QhAKun4rZ&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="youtubekids">YouTube Kids </a>
+            </div>
+        </div> 
+        <hr>
+
+        <div class="settings flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=50&id=364&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="setting">Settings </a>
+            </div>
+        </div> 
+       
+
+         <div class="reporthistry flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=24&id=94694&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="history">Report History </a>
+            </div>
+        </div> 
+
+            
+         <div class="Help1 flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=32&id=16140&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="help">Help</a>
+            </div>
+        </div> 
+
+         <div class="feedback1 flex gap-3 m-3 text-sm bg-transparent hover:bg-gray-200 disabled:opacity-50  rounded-full pl-2">
+            <div class="icon"><a href="#">
+                <img src="https://img.icons8.com/?size=48&id=WgVW7zUmtDUg&format=png" class="img1 w-7 h-6" alt="">
+            </div>
+            <div class="feedback">Send Feedback</a>
+            </div>
+        </div> 
+        <hr>   
+
+        <div class="copyright text-xs">
+            About Press Copyright <br>Contact us Creators Advertise <br>Developers<br><br>
+            Terms Privacy Policy & Safety <br>How YouTube works <br>Test new features<br><br>
+            © 2025 Google LLC
+        </div>
+    </div>
+
+
+
+    <div class="mainarea grid md:grid-cols-2 lg:grid-cols-3 md:col-span-2 lg:col-span-3 w-full gap-3 ">
+        <div class="sub p-3 bg-yellow-700 rounded-xl">
+            <div class="image1">
+                <iframe width="280" height="315" src="https://www.youtube.com/embed/CbJbmtkfAIg?si=8tWs7E_jVe6QH1uz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            </div> 
+            <div class="desc1">
+                <a href=""> Sancharam | By Santhosh George Kulangara | Germany 07 | Safari TV</a>
+            </div>  
+        </div>  
+        <div class="sub p-3 bg-yellow-700 rounded-xl">
+            <div class="image2">
+            <iframe width="280" height="315" src="https://www.youtube.com/embed/-r_GBdPzvzI?si=byuiFczsnVHKcEpG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+        <div class="desc2">
+            <a href="">20 രൂപയ്ക്ക് അൺലിമിറ്റഡ് ഊണ്! Rs 20 Unlimited Meals near Eranakulam North Railway Station</a>
+        </div>
+         </div>
+        <div class="sub p-3 bg-yellow-700 rounded-xl">
+            <div class="image3">
+                <iframe width="280" height="315" src="https://www.youtube.com/embed/g2Iihr8DX1c?si=Liv6dEWqM0txB-3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="desc3">
+                <a href="">Muththa Mazhai - Chinmayi Performance| Thug Life |Kamal Haasan |Mani Ratnam |STR |AR Rahman</a>
+            </div>
+     </div>
+    <div class="sub p-3 bg-yellow-700 rounded-xl ">
+        <div class="image4">
+            <iframe width="280" height="315" src="https://www.youtube.com/embed/xi5JJdWpAnA?si=HE73T2INVB1YDRS6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="desc4">
+            <a href="">8 Japanese Secrets To Remember Everything You Studied | Photographic Memory</a>
+        </div>
+    </div>
+     <div class="sub p-3 bg-yellow-700 rounded-xl ">
+        <div class="image5">
+            <iframe width="280" height="315" src="https://www.youtube.com/embed/QHVJLILn5ao?si=MDeOoqlq14kIFyBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="desc5">
+            <a href="">ശാസ്ത്ര ലോകത്തെ അത്ഭുതപ്പെടുത്തിയ സ്ഥലങ്ങൾ!😱 Strangest and Unbelievable Places In Earth | Malayalam</a>
+        </div>
+    </div>
+     <div class="sub p-3 bg-yellow-700 rounded-xl">
+        <div class="image6">
+            <iframe width="280" height="315" src="https://www.youtube.com/embed/xbz-eJbuz-U?si=ZAEx62n2Mvp7f-FS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="desc6">
+            <a href="">ഇടുക്കി - കൊലുമ്പന്റെ നാട് | Idukki Song | Sithara | Shaiju Avaran | Kannan Mangalath | Anjana Mohan</a>
+        </div>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
